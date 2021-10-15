@@ -77,7 +77,7 @@ void main() {
         () async {
           //arrange
           when(mockRemoteDataSource.getConcreteNumberTrivia(any))
-              .thenAnswer((_) => Future.value(tNumberTrivia));
+              .thenAnswer((_) => Future.value(tNumberTriviaModel));
           //act
           final result = await repository.getConcreteNumberTrivia(tNumber);
           //assert
@@ -91,7 +91,7 @@ void main() {
         () async {
           //arrange
           when(mockRemoteDataSource.getConcreteNumberTrivia(any))
-              .thenAnswer((_) => Future.value(tNumberTrivia));
+              .thenAnswer((_) => Future.value(tNumberTriviaModel));
           //act
           await repository.getConcreteNumberTrivia(tNumber);
           //assert
@@ -185,7 +185,7 @@ void main() {
         () async {
           //arrange
           when(mockRemoteDataSource.getRandomNumberTrivia())
-              .thenAnswer((_) => Future.value(tNumberTrivia));
+              .thenAnswer((_) => Future.value(tNumberTriviaModel));
           //act
           await repository.getRandomNumberTrivia();
           //assert
