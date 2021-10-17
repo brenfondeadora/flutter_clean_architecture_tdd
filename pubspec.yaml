@@ -19,6 +19,7 @@ dependencies:
   shared_preferences: ^2.0.8
 
 dev_dependencies:
+  bloc_test: ^8.3.0
   flutter_test:
     sdk: flutter
   mockito: ^5.0.16

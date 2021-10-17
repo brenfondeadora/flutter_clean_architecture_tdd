@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:clean_architecture_tdd_flutter/core/network/network_info.dart';
 import 'package:mockito/mockito.dart';
 import 'package:flutter_test/flutter_test.dart';
