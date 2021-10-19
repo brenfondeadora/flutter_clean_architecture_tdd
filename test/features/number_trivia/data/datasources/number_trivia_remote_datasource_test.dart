@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:clean_architecture_tdd_flutter/core/error/exceptions.dart';
-import 'package:clean_architecture_tdd_flutter/features/number_trivia/data/datasources/number_trivia_local_datasource.dart';
 import 'package:clean_architecture_tdd_flutter/features/number_trivia/data/datasources/number_trivia_remote_datasource.dart';
 import 'package:clean_architecture_tdd_flutter/features/number_trivia/data/models/number_trivia_model.dart';
 import 'package:mockito/mockito.dart';
