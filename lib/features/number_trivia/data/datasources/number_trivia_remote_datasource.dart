@@ -37,12 +37,9 @@ class NumberTriviaRemoteDataSourceImpl implements NumberTriviaRemoteDataSource {
       Uri.parse(url),
       headers: {'Content-Type': 'application/json'},
     );
-    print('=========> _getTriviaFromUrl0');
     if (response.statusCode == 200) {
-      print('=========> _getTriviaFromUrl1');
       return NumberTriviaModel.fromJson(json.decode(response.body));
     } else {
-      print('=========> _getTriviaFromUrl2');
       throw (ServerException());
     }
   }
